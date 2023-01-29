@@ -21,7 +21,7 @@
     --p-font:1.1rem;
 }
 body{
-    background: #212121;
+    background: #111111;
     color: v#fff;
 }
 header {
@@ -120,7 +120,7 @@ span{
 .btn{
     display: inline-block;
     padding: 15px 35px;
-    background: #111111 ;
+    background: #212121 ;
     color:#ff9f0d;
     font-size: 1.1rem;
     font-weight: 500;
@@ -150,4 +150,39 @@ transition: all .50s ease;
 }
 .btn2:hover{
     transform: scale(1.1) translateX(12px);
+}
+header.sticky{
+    padding:12px 10%;
+    background: #212121;
+}
+.container{
+    padding:30px 10% 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    gap:2rem;
+    text-align:center;
+}
+.container-box{
+    padding: 43px 43px 43px 43px;
+    background: #212121;
+    border-radius: 3rem;
+}
+.container-box img{
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+}
+.container-box h3{
+    font-size: 21px;
+    font-weight: bold;
+    margin:16px 0;
+}
+.container-box a{
+    color:#9e9393;
+    font-size:1.1rem;
+    letter-spacing: 1px;
+    transition:all .50s ease;
+}
+.container-box a:hover{
+    color:#ff9f0d;
 }
