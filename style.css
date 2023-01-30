@@ -337,3 +337,24 @@ margin-top: 2rem;
     font-size: 18px;
     margin-right: 5px;
 }
+
+.contact-content{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+.contact-img{
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+    gap:4rem;
+    margin-bottom: 5rem;
+}
+.contact-img img{
+    width: 100%;
+    max-width: 200px;
+    height:auto;
+    cursor: pointer;
+    transition: all .50s ease;
+}
